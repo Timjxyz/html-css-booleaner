@@ -49,9 +49,7 @@ header{
  /* Parte riguardante la tabella */
 .row{
     width: 100%;
-    background-color: lightskyblue;
-    text-align: left;
-    
+    background-color: lightskyblue;  
     
 }
 
