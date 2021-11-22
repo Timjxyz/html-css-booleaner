@@ -44,7 +44,7 @@ header{
 }
 
 #lista{
-    padding-left: 10px;
+    padding-left: 20px;
 }
  /* Parte riguardante la tabella */
 .row{
@@ -82,4 +82,10 @@ header{
 
 footer{
     color: gray;
+}
+
+
+.article{
+    margin: auto;
+    width: 50%;
 }
