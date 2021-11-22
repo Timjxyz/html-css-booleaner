@@ -2,6 +2,8 @@ body{
     box-sizing: border-box;
     
 }
+
+/*  parte inerente al header */
 header{
     background-color: rgb(1, 155, 206);
     background-image:url("img/pattern.png");
@@ -13,6 +15,8 @@ header{
     margin-top:5%;
     width: 25%;
 }
+
+/* parte inerente alla sezione titolo e info */
 
 .titolo h1{
     font-size: 60px;
@@ -29,6 +33,8 @@ header{
     color: rgb(17, 140, 255);
 }
 
+/* parte inerente alla sezione immagini */
+
 .immagini-descrizione p{
     margin-top: 0%;
 }
@@ -39,4 +45,37 @@ header{
 
 #lista{
     padding-left: 10px;
+}
+
+/* Parte inerente alla tabella */
+
+table{
+    width: 100%;
+    text-align: justify;
+}
+
+.colonna-sinistra{
+    width: 28%;
+}
+
+.colonna-centro{
+    width: 28%;
+}
+
+.colonna-destra{
+    width:40%;
+}
+
+#rhead{
+    background-color: rgb(5, 141, 252);
+    color: rgb(255,255,255);
+}
+
+.colore{
+    background-color: rgb(1, 155, 206);
+
+}
+
+footer{
+    color: gray;
 }
