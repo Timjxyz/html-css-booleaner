@@ -46,34 +46,40 @@ header{
 #lista{
     padding-left: 10px;
 }
-
-/* Parte inerente alla tabella */
-
-table{
+ /* Parte riguardante la tabella */
+.row{
     width: 100%;
-    text-align: justify;
+    background-color: lightskyblue;
+    text-align: left;
+    
+    
 }
 
-.colonna-sinistra{
+.row-left{
     width: 28%;
+    display: inline-block;
+
 }
 
-.colonna-centro{
+.row-center{
     width: 28%;
+    display: inline-block;
+
 }
 
-.colonna-destra{
+.row-right{
     width:40%;
+    display: inline-block;
+
 }
 
-#rhead{
+.one{
     background-color: rgb(5, 141, 252);
     color: rgb(255,255,255);
 }
 
-.colore{
-    background-color: rgb(1, 155, 206);
-
+.three{
+    background-color: white;
 }
 
 footer{
