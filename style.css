@@ -32,3 +32,11 @@ header{
 .immagini-descrizione p{
     margin-top: 0%;
 }
+
+.paragrafo span{
+    background-color: yellow;
+}
+
+#lista{
+    padding-left: 10px;
+}
