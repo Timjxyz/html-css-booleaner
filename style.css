@@ -80,7 +80,31 @@ header{
     background-color: white;
 }
 
-footer{
+footer h2{
+    font-size: 16px;
     color: gray;
 }
+
+.immage{
+    width:208px;
+    height:160px;
+    margin: 10 0;
+    padding:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.immage h3{
+    margin:0px;
+}
+#img-monitor{
+    background-image: url('img/monitor.jpg');
+}
+
+#img-graph{
+    background-image: url('img/graph.jpg');
+}
+
+
 
