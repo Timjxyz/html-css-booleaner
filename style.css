@@ -47,39 +47,23 @@ header{
     padding-left: 20px;
 }
  /* Parte riguardante la tabella */
-.row{
-    width: 100%;
-    background-color: lightskyblue;  
-    
+ table{
+     border-spacing: 0ch;
+     text-align: left;
+ }
+ 
+ .testo-lungo{
+     width: 50%;
+ }
+
+thead tr{
+    background-color: rgb(5, 162, 224);
+    color: white;
 }
 
-.row-left{
-    width: 28%;
-    display: inline-block;
-
+.marker{
+    background-color: rgb(64, 224, 208);
 }
-
-.row-center{
-    width: 28%;
-    display: inline-block;
-
-}
-
-.row-right{
-    width:40%;
-    display: inline-block;
-
-}
-
-.one{
-    background-color: rgb(5, 141, 252);
-    color: rgb(255,255,255);
-}
-
-.three{
-    background-color: white;
-}
-
 footer h2{
     font-size: 16px;
     color: gray;
