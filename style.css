@@ -56,14 +56,19 @@ header{
      width: 50%;
  }
 
-thead tr{
+tr th{
     background-color: rgb(5, 162, 224);
     color: white;
 }
-
-.marker{
-    background-color: rgb(64, 224, 208);
+tr:nth-of-type(odd){
+    height: 20px;
+    background-color:  rgb(64, 224, 208);
 }
+
+/* .marker{
+    background-color: rgb(64, 224, 208);
+} */
+
 footer h2{
     font-size: 16px;
     color: gray;
